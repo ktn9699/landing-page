@@ -1,0 +1,202 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+p, a, h1, .name{
+    font-family: Arial;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+
+    gap: 30px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 900;
+
+ 
+
+}
+
+.top-links {
+    padding-right: 40px;
+ 
+}
+
+.logo {
+    height: 110px;
+    width: 110px;
+    object-fit: contain;
+
+}
+
+.header {
+    background-color: rgb(0, 33, 67);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.player {
+    height: 220px;
+    width: 200px;
+    margin-bottom: 20px;
+object-fit: cover;
+border-radius: 15px;
+box-shadow: 5px 10px 0px rgb(255, 255, 255);;
+}
+
+.dk {
+    height: 400px;
+    border-radius: 30px;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    gap: 30px;
+    justify-content: center;
+    background-color: rgb(0, 33, 67);
+ 
+}
+
+
+.left h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.left p {
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up {
+    height: 60px;
+    width: 200px;
+    margin-top: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(102, 188, 39);
+    border-style: none;
+
+}
+.content-box {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(102, 188, 39);
+    justify-content: center;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 1000;
+    color: rgb(0, 33, 67);
+    font-style: italic;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.player-row {
+    display: flex;
+    justify-content: space-between;
+ gap: 30px;
+padding-left: 400px;
+padding-right: 400px;
+
+}
+
+.player-box {
+    width: 200px;
+
+}
+
+.name {
+margin-top: 0;
+    font-size: 30px;
+    font-weight: 950;
+    text-align: center;
+    color: rgb(0, 33, 67);
+}
+
+.third {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: gray;
+   
+}
+
+.third p {
+    font-size: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 60px;
+    font-style: italic;
+}
+
+.fourth{
+    background-color: aquamarine;
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ad-box {
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    align-items: center;
+    gap: 32px;
+    padding-top: 60px;
+    padding-bottom: 75px;
+    padding-left: 200px;
+    padding-right: 200px;
+
+   
+}
+
+.ad-box h1 {
+    font-size: 50px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ad-box p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.ad-box button {
+   height: 60px;
+   width: 100px;
+   font-size: 20px;
+   margin-bottom: 0;
+  
+}
